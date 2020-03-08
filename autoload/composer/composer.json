@@ -1,0 +1,6 @@
+{
+  "name": "vijaycs85/cafe",
+  "autoload": {
+    "psr-4": {"Vijaycs85\\Cafe\\": "src/"}
+  }
+}
