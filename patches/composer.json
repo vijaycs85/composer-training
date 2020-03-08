@@ -1,0 +1,20 @@
+{
+  "name": "vijaycs85/cafe",
+  "require": {
+    "drupal/metatag": "^1.0",
+    "cweagans/composer-patches": "~1.0"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  ],
+  "extra": {
+    "patches": {
+      "drupal/metatag": {
+        "3011202-13: Feeds Integration": "https://www.drupal.org/files/issues/2020-01-10/metatag-feeds-target-3011202-13-D8.patch"
+      }
+    }
+  }
+}

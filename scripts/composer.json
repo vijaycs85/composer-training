@@ -1,0 +1,15 @@
+{
+  "name": "vijaycs85/cafe",
+  "require": {
+    "guzzlehttp/guzzle": "^6.0.0",
+    "php": ">7.2"
+  },
+  "scripts": {
+    "test-api": [
+      "@composer update",
+      "@cache-clear",
+      "@php index.php"
+    ],
+    "cache-clear": "echo 'cleared cache!'"
+  }
+}
