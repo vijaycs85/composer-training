@@ -1,0 +1,6 @@
+{
+  "name": "vijaycs85/cafe",
+  "require": {
+    "drupal/search_api": "^1"
+  }
+}
